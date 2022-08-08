@@ -32,10 +32,11 @@ enum ProfessionType {
   informationTechnology, //tecnologia da informação
 }
 
+//características da profissão
 enum CharacteristicOfTheProfession {
   realist,
   intellectual,
-  Social,
+  social,
   conventional,
   entrepreneur,
   artistic,
