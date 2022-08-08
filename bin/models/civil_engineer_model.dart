@@ -1,8 +1,9 @@
 import '../enums/engineering_enum.dart';
 import '../enums/job_enum.dart';
 import '../interfaces/engineering_interface.dart';
+import '../interfaces/job_interface.dart';
 
-class CivilEngineerModel implements EngineeringInterface {
+class CivilEngineerModel implements EngineeringInterface, JobInterface {
   CivilEngineerModel({
     required this.characteristicOfTheProfession,
     required this.departureTime,

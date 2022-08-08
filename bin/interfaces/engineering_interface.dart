@@ -1,7 +1,6 @@
 import '../enums/engineering_enum.dart';
-import 'job_interface.dart';
 
-abstract class EngineeringInterface implements JobInterface {
+abstract class EngineeringInterface  {
   late EngineeringQualifications engineeringQualifications;
   late double studyYears;
   late int maximumEnergy;
