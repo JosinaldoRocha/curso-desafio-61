@@ -1,6 +1,6 @@
 import '../enums/engineering_enum.dart';
 
-abstract class EngineeringInterface  {
+abstract class EngineeringInterface {
   late EngineeringQualifications engineeringQualifications;
   late double studyYears;
   late int maximumEnergy;
@@ -11,5 +11,5 @@ abstract class EngineeringInterface  {
   void isWorking() {}
   void isFeeding() {}
   void isUnemployed() {}
-  void isStuding () {}
+  void isStuding() {}
 }
